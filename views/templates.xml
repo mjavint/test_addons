@@ -1,0 +1,50 @@
+<odoo>
+    <data>
+        <template id="helloworld">
+            <t t-call="web.basic_layout">
+                <div class="page">
+                    <div
+                            style="display: flex;justify-content: center;align-items: center; font-weight:bold">
+                        <span>Hola Mundo</span>
+                    </div>
+                </div>
+            </t>
+        </template>
+
+        <template id="hello_name">
+            <t t-call="web.basic_layout">
+                <div class="page">
+                    <div
+                            style="display: flex;justify-content: center;align-items: center; font-weight:bold">
+                        <span>Hola <span t-esc="name"/>!</span>
+                    </div>
+                </div>
+            </t>
+        </template>
+
+        <template id="product1">
+            <t t-call="web.basic_layout">
+                <div class="page">
+                    <div class="col-md-6">
+                        <div class="card" style="width: 18rem;">
+                            <img
+                                    t-att-src="image_data_uri(product.image_1920)"
+                                    class="card-img-top" alt="Product"/>
+                            <div class="card-body">
+                                <h5 class="card-title bol"><span
+                                        t-esc="product.default_code"/></h5>
+                                <p class="card-text">ID - <span
+                                        t-esc="product.id"/>.</p>
+                                <p class="card-text">Lista de Precio - <span
+                                        t-esc="product.list_price"/>.</p>
+                                <p class="card-text">Precio - <span
+                                        t-esc="product.standard_price"/>.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </t>
+        </template>
+    </data>
+</odoo>

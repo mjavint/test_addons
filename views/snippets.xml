@@ -1,0 +1,64 @@
+<odoo>
+    <data>
+        <template id="s_test" name="Test snippet">
+            <section>
+                <form action="/" method="post">
+                    <div class="form-group">
+                        <label class="col-md-3 col-sm-4 control-label"
+                               for="name">
+                            Your Name
+                        </label>
+                        <div class="col-md-7 col-sm-8">
+                            <input class="form-control"
+                                   name="name"
+                                   type="text"/>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-md-3 col-sm-4 control-label" for="phone">
+                            Phone Number
+                        </label>
+                        <div class="col-md-7 col-sm-8">
+                            <input class="form-control"
+                                   name="phone"
+                                   pattern="(\+|00)[\d\s]+"
+                                   placeholder="+1 3212184553"
+                                   type="tel"/>
+                        </div>
+                    </div>
+
+                    <div name="email_from_container" class="form-group">
+                        <label class="col-md-3 col-sm-4 control-label"
+                               for="email_from">
+                            Email
+                        </label>
+                        <div class="col-md-7 col-sm-8">
+                            <input class="form-control"
+                                   name="email_from"
+                                   pattern="\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}\b"
+                                   type="email"/>
+                        </div>
+                    </div>
+                    <!-- Button -->
+                    <div class="form-group">
+                        <div class="col-md-offset-3 col-sm-offset-4 col-sm-8 col-md-7">
+                            <button class="btn btn-primary btn-lg"
+                                    type="submit">
+                                Send
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </section>
+        </template>
+
+        <template id="place_into_bar" inherit_id="website.snippets"
+                  name="Place into bar">
+            <xpath expr="//div[@id='snippet_content']/div[hasclass('o_panel_body')]"
+                   position="inside">
+                <t t-snippet="test_addons.s_test"/>
+            </xpath>
+        </template>
+    </data>
+</odoo>
