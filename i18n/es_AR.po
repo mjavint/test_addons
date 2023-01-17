@@ -1,0 +1,158 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* test_addons
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-17 01:38+0000\n"
+"PO-Revision-Date: 2023-01-16 20:43-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_AR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 3.2\n"
+
+#. module: test_addons
+#: model_terms:ir.ui.view,arch_db:test_addons.s_test
+msgid "+1 3212184553"
+msgstr ""
+
+#. module: test_addons
+#: model_terms:ir.ui.view,arch_db:test_addons.helloworld
+msgid "<span>Hola Mundo</span>"
+msgstr ""
+
+#. module: test_addons
+#: model_terms:ir.ui.view,arch_db:test_addons.res_config_settings_view_form_inherit
+msgid "API"
+msgstr ""
+
+#. module: test_addons
+#: code:addons/test_addons/models/res_config_settings.py:0
+#: model:ir.model.fields,field_description:test_addons.field_res_config_settings__api_token
+#, python-format
+msgid "API Token"
+msgstr ""
+
+#. module: test_addons
+#: model_terms:ir.ui.view,arch_db:test_addons.res_config_settings_view_form_inherit
+msgid "API Token:"
+msgstr ""
+
+#. module: test_addons
+#: code:addons/test_addons/models/res_partner.py:0
+#: model:ir.model.fields,field_description:test_addons.field_res_partner__cmm_maturity
+#: model:ir.model.fields,field_description:test_addons.field_res_users__cmm_maturity
+#, python-format
+msgid "CMM Maturity"
+msgstr "Madurez de CMM"
+
+#. module: test_addons
+#: model:ir.model,name:test_addons.model_res_company
+msgid "Companies"
+msgstr "Compañías"
+
+#. module: test_addons
+#: model:ir.model.fields,field_description:test_addons.field_res_config_settings__company_id
+msgid "Company"
+msgstr "Empresa"
+
+#. module: test_addons
+#: model:ir.model,name:test_addons.model_res_config_settings
+msgid "Config Settings"
+msgstr "Opciones de configuración"
+
+#. module: test_addons
+#: model:ir.model,name:test_addons.model_res_partner
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: test_addons
+#: code:addons/test_addons/models/res_partner.py:0
+#: model:ir.model.fields.selection,name:test_addons.selection__res_partner__cmm_maturity__defined
+#, python-format
+msgid "Defined"
+msgstr "Definido"
+
+#. module: test_addons
+#: model_terms:ir.ui.view,arch_db:test_addons.s_test
+msgid "Email"
+msgstr "Correo electrónico"
+
+#. module: test_addons
+#: model_terms:ir.ui.view,arch_db:test_addons.hello_name
+msgid "Hola"
+msgstr ""
+
+#. module: test_addons
+#: model_terms:ir.ui.view,arch_db:test_addons.product1
+msgid "ID -"
+msgstr ""
+
+#. module: test_addons
+#: code:addons/test_addons/models/res_partner.py:0
+#: model:ir.model.fields.selection,name:test_addons.selection__res_partner__cmm_maturity__initial
+#, python-format
+msgid "Initial"
+msgstr "Inicial"
+
+#. module: test_addons
+#: model_terms:ir.ui.view,arch_db:test_addons.product1
+msgid "Lista de Precio -"
+msgstr ""
+
+#. module: test_addons
+#: code:addons/test_addons/models/res_partner.py:0
+#: model:ir.model.fields.selection,name:test_addons.selection__res_partner__cmm_maturity__managed
+#, python-format
+msgid "Managed"
+msgstr "Administrado"
+
+#. module: test_addons
+#: code:addons/test_addons/models/res_partner.py:0
+#: model:ir.model.fields.selection,name:test_addons.selection__res_partner__cmm_maturity__optimising
+#, python-format
+msgid "Optimising"
+msgstr "Optimizado"
+
+#. module: test_addons
+#: model_terms:ir.ui.view,arch_db:test_addons.s_test
+msgid "Phone Number"
+msgstr "Número de Teléfono"
+
+#. module: test_addons
+#: model_terms:ir.ui.view,arch_db:test_addons.product1
+msgid "Precio -"
+msgstr ""
+
+#. module: test_addons
+#: model_terms:ir.ui.view,arch_db:test_addons.product1
+msgid "Product"
+msgstr "Producto"
+
+#. module: test_addons
+#: code:addons/test_addons/models/res_partner.py:0
+#: model:ir.model.fields.selection,name:test_addons.selection__res_partner__cmm_maturity__repetable
+#, python-format
+msgid "Repetable"
+msgstr "Repetable"
+
+#. module: test_addons
+#: model_terms:ir.ui.view,arch_db:test_addons.s_test
+msgid "Send"
+msgstr "Enviar"
+
+#. module: test_addons
+#: model:ir.model.fields,field_description:test_addons.field_res_company__api_token
+msgid "Token for API services"
+msgstr "Token para servicios API"
+
+#. module: test_addons
+#: model_terms:ir.ui.view,arch_db:test_addons.s_test
+msgid "Your Name"
+msgstr "Tu Nombre"
